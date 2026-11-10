@@ -1,0 +1,28 @@
+[server]
+# PRD: 최대 10MB (업로더에 표시되는 한도도 함께 바뀜)
+maxUploadSize = 10
+
+# AI 관상가 테마: 동양풍 + 신비로운 분위기 (남색·보라 + 금색 포인트)
+# 사용자가 설정 메뉴에서 라이트/다크를 바꿔도 둘 다 이 팔레트로 표시됩니다.
+
+[theme]
+font = "sans-serif"
+headingFont = "serif"
+baseRadius = "0.75rem"
+buttonRadius = "full"
+
+[theme.dark]
+primaryColor = "#D4AF37"
+backgroundColor = "#12102A"
+secondaryBackgroundColor = "#1E1B42"
+textColor = "#F3EEDD"
+borderColor = "#3A3570"
+linkColor = "#E8C766"
+
+[theme.light]
+primaryColor = "#6B3FA0"
+backgroundColor = "#FBF7EE"
+secondaryBackgroundColor = "#F1E9D6"
+textColor = "#1F1A3D"
+borderColor = "#DCCFAE"
+linkColor = "#6B3FA0"
