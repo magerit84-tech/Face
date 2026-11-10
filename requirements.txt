@@ -1,0 +1,6 @@
+# 테스트한 버전(streamlit 1.67.0, openai 3.48.0) 기준. 다음 메이저 버전에서 깨지지 않도록 상한을 둠.
+# .streamlit/config.toml의 [theme.light]/[theme.dark]와 st.container(key=...) CSS가 최신 Streamlit 기능에 의존.
+streamlit>=1.67,<2
+openai>=3.48,<4
+python-dotenv>=1.0
+Pillow>=10
